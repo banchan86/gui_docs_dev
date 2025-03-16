@@ -11,15 +11,20 @@ In addition, we will cover how to arrange these UI elements into a cohesive layo
 
 ## Starter Workflow
 
-For the purpose of this tutorial, we will start with a common neuroscience workflow that tracks the centre of the mice, measure its motion, as well as saves the resulting video as well as data. Implementing this workflow is beyond the scope of this tutorial but more information can be found in the [Acqusition and Tracking](https://bonsai-rx.org/docs/tutorials/acquisition.html) tutorial.
+For the purpose of this tutorial, we will start with a common neuroscience workflow that captures a video of a mice as well as its centroid. Implementing this workflow is beyond the scope of this tutorial but more information can be found in the [Acquisition and Tracking](https://bonsai-rx.org/docs/tutorials/acquisition.html) tutorial.
 
 We will use a video of a foraging mouse that was generously provided by the Sainsbury Wellcome Centre Foraging Behaviour Working Group ((2023). Aeon: An open-source platform to study the neural basis of ethological behaviours over naturalistic timescales, https://doi.org/10.5281/zenodo.8413142). You can download the ForagingMouseExampleVid.avi video file here: https://doi.org/10.5281/zenodo.10629221. 
 
+:::workflow
+![Example](../workflows/neuroscience-starter-workflow.bonsai)
+:::
+
+To replicate this workflow:
 - Save the video to a folder. 
 - Copy the workflow in this container by clicking on the copy button on the top right
 - Paste it in the Bonsai editor.
 - Save the workflow in the same folder where the video is saved. 
-- Run the workflow once to make sure that it runs correctly and that you have the required packages installed.
+- Run the workflow once to make sure that it runs correctly and that you have the required packages installed. A copy of the video file as well as a csv file containing the centroid of the mice should be produced in the same folder.
 - Double-click on any of the nodes to visualize the data stream/transformation that it is processing.
 
 > [!NOTE]
