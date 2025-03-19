@@ -4,10 +4,14 @@ The `Bonsai.GUI` package enables the creation of a comprehensive graphical user 
 
 - A button to start and stop experiments
 - A text box for labeling files with an experimental or subject ID
-- A mashup visualizer for tracking animal movement
+- A mashup visualizer for overlaying an animal centroid on the raw video
 - A chart for plotting extracted features from data streams
+- A timer to show experiment runtime
+- A property grid to adjust properties for operators (for instance, image threshold values for animal detection or number of trials for stimulus presentation)
 
 In addition, we will cover how to arrange these UI elements into a cohesive layout and customize their properties.
+
+Optional: We will also show you how to launch a GUI without the Bonsai Editor.
 
 ## Starter Workflow
 
